@@ -1,6 +1,5 @@
 import React, {createContext, useContext, useState} from 'react'
 
-
 const ThemeContext = createContext(undefined);
 const ThemeUpdateContext = createContext(undefined);
 

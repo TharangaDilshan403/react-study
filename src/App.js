@@ -4,7 +4,8 @@ import UseEffectHook from "./APP/hooks/UseEffectHook";
 import {useTheme, useThemeUpdate} from './APP/hooks/UseContexHook'
 import Theme from './APP/components/Theme'
 import {ThemeProvider} from "./APP/hooks/UseContexHook";
-
+// import UseRefHook from './APP/hooks/UseRefHook'
+import UseMemoHook from "./APP/hooks/UseMemoHook";
 function App() {
 
     // const theme = useTheme();
@@ -27,9 +28,13 @@ function App() {
         {/*<UseEffectHook/>*/}
 
         {/*use context*/}
-        <ThemeProvider>
-            <Theme/>
-        </ThemeProvider>
+        {/*<ThemeProvider>*/}
+        {/*    <Theme/>*/}
+        {/*</ThemeProvider>*/}
+
+        {/*<UseRefHook/>*/}
+
+        <UseMemoHook/>
       </>
   );
 }
